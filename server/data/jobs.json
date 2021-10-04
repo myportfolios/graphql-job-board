@@ -12,9 +12,21 @@
     "description": "We are looking for a Backend Developer familiar with Node.js and Express."
   },
   {
-    "id": "rkz1GwOOM",
+    "id": "BkaRYHtc_",
+    "companyId": "HJRa-DOuG",
+    "title": "E2E Tester Needed",
+    "description": "Expertise in Cypress is a must"
+  },
+  {
+    "id": "rywEXIK9d",
     "companyId": "SJV0-wdOM",
-    "title": "Full-Stack Developer",
-    "description": "We are looking for a Full-Stack Developer familiar with Node.js, Express, and React."
+    "title": "Automation Tester",
+    "description": "tester"
+  },
+  {
+    "id": "HJiV2IY9u",
+    "title": "E2E Tester Needed",
+    "description": "Expertise in Cypress is a must",
+    "companyId": "HJRa-DOuG"
   }
 ]

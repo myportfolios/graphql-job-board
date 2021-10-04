@@ -1,0 +1,32 @@
+type Query {
+    company(id:ID!): Company,
+    job(id: ID!):Job
+    jobs: [Job]
+    login(email:String,password:String):Login!
+}
+type Mutation {
+    createJob(input:CreateJobInput):Job 
+}
+type Company{
+    id:ID!
+    name:String
+    description:String
+    jobs:[Job]
+}
+type Job {
+    id:ID!
+    title:String
+    company:Company # a resolver should be created to resolve the companyID from the company obj. 
+    description:String
+}
+type Login{
+    id:ID
+    email:String!
+    password:String! 
+    company:Company
+}
+input CreateJobInput{
+    title:String,
+    description:String,
+}
+ 
